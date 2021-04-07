@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 const Employee = mongoose.model("employee")
 
 
-const mongoUri = "mongodb+srv://dhanu:dhanu@tickettool.lmayz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongoUri = ""
 
 mongoose.connect(mongoUri, {
     useNewUrlParser: true,
